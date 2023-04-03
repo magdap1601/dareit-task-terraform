@@ -1,4 +1,4 @@
-//resource "google_compute_instance" "dareit-vm-ci" {
+/*resource "google_compute_instance" "dareit-vm-ci" {
   name         = "dareit-vm-tf-ci"
   machine_type = "e2-medium"
   zone         = "us-central1-a"
@@ -21,7 +21,9 @@
       // Ephemeral public IP
     }
   }
-}//
+}
+*/
+
 resource "google_storage_bucket" "bucket" {
  name   = "bucket-created-on-newBranch"
  location = "US"
