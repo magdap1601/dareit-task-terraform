@@ -6,7 +6,10 @@ name: 'Terraform CI'
 #     - main
 on:
   pull_request:
-    types: [opened]
+    types: 
+    - opened
+    branches:    
+      - main
 
 jobs:
   terraform:
