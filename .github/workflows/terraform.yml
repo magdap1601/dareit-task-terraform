@@ -1,9 +1,5 @@
 name: 'Terraform CI'
 
-# on:
-#   push:
-#     branches:
-#     - main
 on:
   pull_request:
     types: 
