@@ -2,8 +2,10 @@ name: 'Terraform CI'
 
 on:
   pull_request:
-    types: [opened]
-     branches: [main]
+    types:
+      - opened
+    branches:
+      - main
 
 jobs:
   terraform:
