@@ -23,8 +23,8 @@ resource "google_compute_instance" "dareit-vm-ci" {
   }
 }
 
-resource "google_storage_bucket" "my-terraform-state-file" {
-  name     = "my-bucket2"
+resource "google_storage_bucket" "bucket-created-by-pullrequest" {
+  name     = "bucket-pull-request"
   location = "US"
 
 }
