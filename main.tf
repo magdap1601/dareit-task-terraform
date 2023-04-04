@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "auto-expire" {
+resource "google_storage_bucket" "bucket" {
   name          = "bucket-form-pullreq"
   location      = "US"
 
