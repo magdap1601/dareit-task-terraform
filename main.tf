@@ -1,6 +1,6 @@
-resource "google_storage_bucket" "bucket" {
- name   = "terraform-bucket-pullreq"
- location = "US"
+resource "google_storage_bucket" "auto-expire" {
+  name          = "bucket-form-pullreq"
+  location      = "US"
 
- public_access_prevention = "enforced"
+  public_access_prevention = "enforced"
 }
