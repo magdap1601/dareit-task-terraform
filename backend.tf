@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 1.0.11"
   backend "gcs" {
-    bucket = "terraform-bucket-pullreq"
+    bucket = "my-terraform-state-file"
     prefix = "dev"
   }
   required_providers {
