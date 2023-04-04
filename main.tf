@@ -23,7 +23,7 @@ resource "google_compute_instance" "dareit-vm-ci" {
   }
 }
 
-resource "google_storage_bucket" "bucket" {
+resource "google_storage_bucket" "bucket-pullreq" {
   name     = "my-bucket2"
   location = "US"
 
