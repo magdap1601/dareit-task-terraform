@@ -1,4 +1,4 @@
 resource "google_storage_bucket" "bucket" {
- name   = "terraform-bucket-pullreq"
+ name   = "my-terraform-state-file"
  location = "US"
 }
