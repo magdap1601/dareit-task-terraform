@@ -22,3 +22,9 @@ resource "google_compute_instance" "dareit-vm-ci" {
     }
   }
 }
+
+resource "google_storage_bucket" "bucket-created-by-pullrequest" {
+  name     = "bucket-pull-request"
+  location = "US"
+
+}
