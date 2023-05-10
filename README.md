@@ -11,7 +11,7 @@ GitHub Actions is a continuous integration and continuous delivery (CI/CD) platf
 - [x] Modified the workflow to run when pull request is opened: created new branch and modified the code in main.tf to add new bucket in GCP when pull request is opened.
 
 
-**Quic Start**
+**Quick Start**
 
 1. Create repository on Github and clone to local. 
 2. In IAM & Admin on GCP create service account and generate private key in JSON. The key apply connect Github with GCP. Past the generated key in repository (Settings-> Secret and variables).
