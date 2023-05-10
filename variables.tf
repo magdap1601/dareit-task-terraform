@@ -46,3 +46,9 @@ variable "bucket_location" {
   type        = string
   default     = "US"
 }
+
+variable "bucket_backend_name" {
+  description = "Name for created backend bucket."
+  type        = string
+  default     = "my-terraform-state-file"
+}
