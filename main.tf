@@ -1,7 +1,7 @@
-/*resource "google_compute_instance" "dareit-vm-ci" {
-  name         = "dareit-vm-tf-ci"
-  machine_type = "e2-medium"
-  zone         = "us-central1-a"
+resource "google_compute_instance" "dareit-vm-ci" {
+  name         = var.compute_instance_name
+  machine_type = var.compute_instance_machine_type
+  zone         = var.compute_instance_zone
 
   tags = ["dareit"]
 
@@ -25,8 +25,7 @@
 
 
 resource "google_storage_bucket" "bucket-created-by-pullrequest" {
-  name     = "bucket-pull-request"
-  location = "US"
+  name     = var.bucket_name
+  location = var.bucket_location
 
 }
-*/

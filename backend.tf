@@ -1,4 +1,4 @@
-/*terraform {
+terraform {
   required_version = ">= 1.0.11"
   backend "gcs" {
     bucket = "my-terraform-state-file"
@@ -15,4 +15,3 @@
     }
   }
 }
-*/
